@@ -1,0 +1,7 @@
+---
+applications:
+ - name: wfSO_process
+   host: wfSO_process
+   buildpack: nodejs_buildpack
+   memory: 128M
+   command: node index
