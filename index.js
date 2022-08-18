@@ -27,6 +27,7 @@ app.post('/wfpost', (req, res) => {
             'productID': req.body.productID, //'Laptop-09',
             'quantity': req.body.quantity,
             'unitPrice': req.body.unitPrice,
+            'totalPrice': req.body.totalPrice,
             'decisionStatus': req.body.decisionStatus,
             'decisionText': req.body.decisionText
         })
